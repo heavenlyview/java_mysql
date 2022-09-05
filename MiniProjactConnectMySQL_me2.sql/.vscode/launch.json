@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TermProjectDemo",
+            "request": "launch",
+            "mainClass": "TermProjectDemo",
+            "projectName": "MiniProjactConnectMySQL_me2.sql_44eb2328"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
