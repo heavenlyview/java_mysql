@@ -1,11 +1,13 @@
-      import java.sql.*;
+public class MySQL_City {
+    public static void main(String[] args)
+        import java.sql.*;
 
         public class ConnectMySQL {
            static final String DB_URL = "jdbc:mysql://localhost/world";
            static final String USER = "root";
            static final String PASS = "tbrs00002b";
            static final String QUERY = "SELECT ID, NAME, AGE, ADDRESS, SALARY FROM company";
-            
+
         
            public static void main(String[] args) {
               // Open a connection
@@ -27,4 +29,6 @@
            }
         }        
     }
+}
+    
 }
